@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "publish": "npm publish --access=public"
   },
   "dependencies": {
     "@azure/event-hubs": "2.1.4",
