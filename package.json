@@ -1,0 +1,16 @@
+{
+  "name": "@euricom/iothub-listener",
+  "version": "1.0.4",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "2.1.4",
+    "yargs": "^15.1.0"
+  },
+  "bin": {
+    "iothub-listener": "./index.js"
+  }
+}
