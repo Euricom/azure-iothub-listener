@@ -3,7 +3,9 @@
   "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@azure/event-hubs": "2.1.4",
     "yargs": "^15.1.0"

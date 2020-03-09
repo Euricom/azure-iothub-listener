@@ -25,7 +25,7 @@ const argv = yargs
 if (!argv.cstr.startsWith('HostName=') || !argv.cstr.includes('SharedAccessKeyName')) {
   yargs.showHelp();
   console.log();
-  console.log('ERROR: Bad or invalid connection string, must start with "HostName="');
+  console.log('ERROR: Bad or invalid connection string, must start with "HostName=');
   process.exit(-1);
 }
 

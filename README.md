@@ -7,7 +7,7 @@ First make sure you have installed the latest LTS version (or higher) of [node.j
 
 From NPM for use as a command line app:
 
-    npm install iothub-listener -g
+    npm install @euricom/iothub-listener -g
 
 ## Command line usage
 
